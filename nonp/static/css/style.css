@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background: gray;
+}
+
+nav{
+    background: brown;
+    width: 100%;
+    overflow: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: brown;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial;
+}
+
+nav a:hover{
+    background: skyblue;
+    color: black;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 8px;
+    background: white;
+}
+
+img{
+    float: left;
+    width: 300px;
+    height: 260px;
+    padding: 0 10px 0 0;
+}
+
+.text{
+    text-align: justify;
+}

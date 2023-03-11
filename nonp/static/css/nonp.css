@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: gray;
+}
+
+nav{
+    background: brown;
+    width: 100%;
+    overflow: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: brown;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial;
+}
+
+nav a:hover{
+    background: skyblue;
+    color: black;
+}
+
+.container{
+    margin: auto;
+    background: lightgray;
+    overflow: auto;
+}
+
+.posting{
+    margin: auto;
+    background-color: white;
+    overflow: auto;
+}
+
+.nonprofit{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+
+.nonprofit img{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+}
+
+.donation{
+    padding: 15px;
+    text-align: center;
+}
